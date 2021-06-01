@@ -55,7 +55,7 @@ span {
 .middle-section {
   background-image: url("biography-bg.png");
 }
-#middle-section {
+#mid-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,6 +70,11 @@ span {
     padding: 2em;
 }
 /* work section */
+.latest {
+    background-image: url("latest-work-bg.png");
+    background-size: cover;
+    
+}
 .latest h2 {
     padding-top: 3em;
 }
@@ -130,8 +135,30 @@ footer {
    #text {
        margin-left: 15rem;
        margin-top: -3rem;
-       
-   }
- 
-  
+    }
+    .middle-section {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+    }
+    .middle-section img {
+        width: 55%;
+    }
+    .half-width h2 p  {
+      width: 30%;
+    }
+    #mid-section {
+        width: 40%;
+    }
+    #mid-section h2 {
+        padding-right: 14.5em;
+    }
+    .image{
+      width: 30%;
+       display: flex;
+       justify-content: center;
+    }
+    .info {
+        width: 34rem;
+    }
 }
