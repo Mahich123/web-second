@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.top-section {
+    background-image: url("header-bg.png");
+}
+section {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     overflow: hidden;
+}
+
+#text { 
+  width: 40%;
+  padding: 8em 0px 3em.375em;
+  margin-right: 20%;
+}
+/* h3 used at client section */
+h3 {
+   padding-top: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+span {
+    color: brown;
+  
+}
+.top-section h1 {
+    /* padding: .5em 0 0 0; */
+    font-size: 1.9em;
+}
+.top-section img {
+    width: 100%;
+}
+.top-section p {
+  color: gray;
+  padding-top: .5em; 
+}
+
+.half-width img {
+    width: 62%;
+    margin: 4em;
+}
+
+/* middle section */
+.middle-section {
+  background-image: url("biography-bg.png");
+}
+#middle-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+.middle-section img {
+    margin-top: 1em;
+}
+.middle-section p {
+    color: gray;
+    padding: 2em;
+}
+/* work section */
+.latest h2 {
+    padding-top: 3em;
+}
+.work {
+    width: 70%;
+    margin: 3.5em;
+}
+
+/* client section */
+.client {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    background-image: url("footer-bg.png");
+    height: 70vh;
+}
+q {
+    padding: 2em;
+}
+.info {
+    height: 7rem;
+    background: #e93b81;
+    width: 21rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px gray;
+}
+#txt {
+    color: #fff
+}
+.client h5 {
+    color: gray;
+}
+
+/* footer  */
+footer {
+    font-size: .8rem;
+    color: gray;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* media querry */
+@media only screen and (min-width: 900px) {
+  .top-section {
+   display: flex;
+   flex-direction: row;
+   }
+   .top-section img {
+      width: 70%;
+      margin-top: 6rem;
+      padding-right: 6rem;
+   }
+   #text {
+       margin-left: 15rem;
+       margin-top: -3rem;
+       
+   }
+ 
+  
+}
